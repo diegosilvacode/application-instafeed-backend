@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 mongoose.connect(
-  'mongodb+srv://guest:guest@001-zolye.mongodb.net/test?retryWrites=true&w=majority',
+  'mongodb+srv://guest:guest@001-zolye.mongodb.net/instafeed?retryWrites=true&w=majority',
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
