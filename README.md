@@ -30,6 +30,10 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 ## Tecnologies Used
 
+#### Cors
+
+> To allow the backend application to be accessed from any address (in this case, to be accessed by the frontend).
+
 #### Express
 
 > To better handle application routes.
@@ -53,6 +57,10 @@ The page will reload if you make edits. You will also see any lint errors in the
 #### Sharp
 
 > To manipulate images within the application.
+
+#### Socket.io
+
+> To communicate backend with the frontend in real-time.
 
 ## About Me
 
