@@ -8,8 +8,10 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
+require('dotenv').config();
+
 mongoose.connect(
-  'mongodb+srv://guest:guest@001-zolye.mongodb.net/instafeed?retryWrites=true&w=majority',
+  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@coderamos-zolye.mongodb.net/test`,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
