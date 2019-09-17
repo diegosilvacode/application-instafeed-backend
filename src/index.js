@@ -11,7 +11,7 @@ const io = require('socket.io')(server);
 require('dotenv').config();
 
 mongoose.connect(
-  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@coderamos-zolye.mongodb.net/test`,
+  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@coderamos-zolye.mongodb.net/codefolio-instafeed-backend`,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
