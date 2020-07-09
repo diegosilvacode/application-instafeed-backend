@@ -1,4 +1,4 @@
-# application | INSTAFEED-BACKEND
+# application | INSTAFEED - BACKEND
 
 ## About This Project
 
