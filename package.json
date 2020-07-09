@@ -1,8 +1,8 @@
 {
-  "name": "codefolio-instafeed-backend",
+  "name": "application-instafeed-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/coderamos/codefolio-instafeed-backend.git",
+  "repository": "https://github.com/coderamos/application-instafeed-backend.git",
   "author": "Diego Ramos <diego.coderamos@gmail.com>",
   "license": "MIT",
   "scripts": {
